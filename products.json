@@ -1,0 +1,132 @@
+{
+    "items": [
+        {
+            "sys": {
+                "id": "1"
+            },
+            "fields": {
+                "title": "Give a hug",
+                "price": 8,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/hug.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "2"
+            },
+            "fields": {
+                "title": "Give a compliment",
+                "price": 10,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/compliment.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "3"
+            },
+            "fields": {
+                "title": "Reach out to an old friend",
+                "price": 8,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/reach-out.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "4"
+            },
+            "fields": {
+                "title": "Treat yourself with something good",
+                "price": 15,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/treat-yourself.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "5"
+            },
+            "fields": {
+                "title": "Take some time to reflect",
+                "price": 10,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/reflect.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "6"
+            },
+            "fields": {
+                "title": "dresser",
+                "price": 32.99,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/quest.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "7"
+            },
+            "fields": {
+                "title": "couch",
+                "price": 45.99,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/pbj.png"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "8"
+            },
+            "fields": {
+                "title": "table",
+                "price": 33.99,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/bear.jpg"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
