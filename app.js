@@ -1,3 +1,10 @@
+const client = contentful.createClient({
+  space: "q7169jr7gzbw",
+  accessToken: "WVv4nJAoTG99L8lhRuieaXGOvtIzz1mLR1hJ4xLsK8M"
+  //   host: "preview.contentful.com"
+});
+console.log(client);
+
 //Declare variables
 const cartBtn = document.querySelector(".cart-btn");
 const closeCartBtn = document.querySelector(".close-cart");
@@ -18,9 +25,15 @@ let buttonsDOM = [];
 class Products {
   async getProducts() {
     try {
-      let resp = await fetch("products.json");
-      let data = await resp.json();
-      let products = data.items;
+      let contentful = await client.getEntries({
+        content_type: "shoppingContent"
+      });
+      console.log(contentful);
+
+      //   let resp = await fetch("products.json");
+      //   let data = await resp.json();
+      //   let products = data.items;
+      let products = contentful.items;
       products = products.map(item => {
         const { title, price } = item.fields;
         const { id } = item.sys;
